@@ -1,3 +1,4 @@
+// Vesão com paralelização do primeiro loop
 /*
 ** PPD / DC/UFSCar - Helio
 ** Programa : multiplicacao de matrizes
@@ -10,6 +11,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <time.h>
+#include <omp.h>
 
 float *A, *B, *C;
 
@@ -50,9 +52,9 @@ main(int argc, char *argv[])
 	// Qual é o efeito de fazer um parallel for em cada um dos fors abaixo?
 	// É necessários sincronizar alguma operação, garantindo exclusão mútua?
     
+    #pragma omp parallel for private(j,k)
 	for(i=0; i < lin_c; i++) 
 
-    #pragma omp parallel for private(k)
 		for(j=0; j < col_c; j++) {
 
 			// pode ser útil usar uma variável auxiliar para os cálculos

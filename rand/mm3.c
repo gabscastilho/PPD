@@ -1,3 +1,5 @@
+// Paralelização da geração do terceiro loop
+
 /*
 ** PPD / DC/UFSCar - Helio
 ** Programa : multiplicacao de matrizes
@@ -33,19 +35,16 @@ main(int argc, char *argv[])
 	C = (float *) malloc ( lin_c * col_c * sizeof(float) );
 
  	// Atribucao de valores iniciais às matrizes 
- 	//srand(time(NULL));
-
-    int rand_seed = rand_r(time(NULL));
+ 	srand(time(NULL));
 
 	// Opa! Vai gerar valores aleatórios em paralelo?
 	// Talvez seja o caso de usar rand_r() ao invés de rand()...
   
-	#
 	for(i=0; i < lin_a * col_a; i++) 
-		A[i]=(float)rand_r(&rand_seed) / (float)RAND_MAX; 
+		A[i]=(float)rand() / (float)RAND_MAX; 
 
 	for(i=0; i < lin_b * col_b; i++) 
-		B[i]=(float)rand_r(rand_seed) / (float)RAND_MAX; 
+		B[i]=(float)rand() / (float)RAND_MAX;
 
 	// calculo da multiplicacao
  
