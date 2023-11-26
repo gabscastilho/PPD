@@ -1,0 +1,32 @@
+1 thread(s) / run 1
+1 thread(s) / run 2
+1 thread(s) / run 3
+
+2 thread(s) / run 1
+2 thread(s) / run 2
+2 thread(s) / run 3
+
+4 thread(s) / run 1
+4 thread(s) / run 2
+4 thread(s) / run 3
+
+8 thread(s) / run 1
+8 thread(s) / run 2
+8 thread(s) / run 3
+
+16 thread(s) / run 1
+16 thread(s) / run 2
+16 thread(s) / run 3
+
+32 thread(s) / run 1
+32 thread(s) / run 2
+32 thread(s) / run 3
+
+64 thread(s) / run 1
+64 thread(s) / run 2
+64 thread(s) / run 3
+
+128 thread(s) / run 1
+128 thread(s) / run 2
+128 thread(s) / run 3
+

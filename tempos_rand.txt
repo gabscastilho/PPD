@@ -1,0 +1,77 @@
+mm1.c:22:33: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   22 |         printf("Linhas A: ");   scanf("%d",&lin_a);
+      |                                 ^~~~~~~~~~~~~~~~~~
+mm1.c:23:43: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   23 |         printf("Colunas A / Linhas B: "); scanf("%d",&col_a);
+      |                                           ^~~~~~~~~~~~~~~~~~
+mm1.c:25:33: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   25 |         printf("Colunas B: ");  scanf("%d",&col_b);
+      |                                 ^~~~~~~~~~~~~~~~~~
+mm2.c: In function ‘main’:
+mm2.c:22:33: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   22 |         printf("Linhas A: ");   scanf("%d",&lin_a);
+      |                                 ^~~~~~~~~~~~~~~~~~
+mm2.c:23:43: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   23 |         printf("Colunas A / Linhas B: "); scanf("%d",&col_a);
+      |                                           ^~~~~~~~~~~~~~~~~~
+mm2.c:25:33: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   25 |         printf("Colunas B: ");  scanf("%d",&col_b);
+      |                                 ^~~~~~~~~~~~~~~~~~
+mm3.c: In function ‘main’:
+mm3.c:22:33: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   22 |         printf("Linhas A: ");   scanf("%d",&lin_a);
+      |                                 ^~~~~~~~~~~~~~~~~~
+mm3.c:23:43: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   23 |         printf("Colunas A / Linhas B: "); scanf("%d",&col_a);
+      |                                           ^~~~~~~~~~~~~~~~~~
+mm3.c:25:33: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   25 |         printf("Colunas B: ");  scanf("%d",&col_b);
+      |                                 ^~~~~~~~~~~~~~~~~~
+122.65user 0.03system 2:02.71elapsed 99%CPU (0avgtext+0avgdata 50816maxresident)k
+0inputs+0outputs (0major+12378minor)pagefaults 0swaps
+124.13user 0.06system 2:04.21elapsed 99%CPU (0avgtext+0avgdata 50944maxresident)k
+0inputs+0outputs (0major+12376minor)pagefaults 0swaps
+129.33user 1.08system 2:10.42elapsed 99%CPU (0avgtext+0avgdata 50816maxresident)k
+0inputs+0outputs (0major+12378minor)pagefaults 0swaps
+144.43user 0.07system 1:12.45elapsed 199%CPU (0avgtext+0avgdata 50688maxresident)k
+0inputs+0outputs (0major+12379minor)pagefaults 0swaps
+155.15user 0.06system 1:25.97elapsed 180%CPU (0avgtext+0avgdata 50816maxresident)k
+0inputs+0outputs (0major+12379minor)pagefaults 0swaps
+346.61user 2.27system 2:54.54elapsed 199%CPU (0avgtext+0avgdata 50432maxresident)k
+0inputs+0outputs (0major+12379minor)pagefaults 0swaps
+198.40user 0.08system 0:50.01elapsed 396%CPU (0avgtext+0avgdata 50560maxresident)k
+0inputs+0outputs (0major+12386minor)pagefaults 0swaps
+209.16user 0.11system 0:55.39elapsed 377%CPU (0avgtext+0avgdata 50688maxresident)k
+0inputs+0outputs (0major+14429minor)pagefaults 0swaps
+883.29user 2.06system 3:41.58elapsed 399%CPU (0avgtext+0avgdata 50816maxresident)k
+0inputs+0outputs (0major+12384minor)pagefaults 0swaps
+374.53user 0.25system 0:48.02elapsed 780%CPU (0avgtext+0avgdata 50688maxresident)k
+0inputs+0outputs (0major+12393minor)pagefaults 0swaps
+397.53user 0.36system 0:53.09elapsed 749%CPU (0avgtext+0avgdata 50560maxresident)k
+0inputs+0outputs (0major+18380minor)pagefaults 0swaps
+1383.31user 3.51system 2:55.12elapsed 791%CPU (0avgtext+0avgdata 50560maxresident)k
+0inputs+0outputs (0major+12392minor)pagefaults 0swaps
+384.78user 0.28system 0:49.36elapsed 780%CPU (0avgtext+0avgdata 50944maxresident)k
+0inputs+0outputs (0major+12409minor)pagefaults 0swaps
+388.66user 1.06system 0:53.44elapsed 729%CPU (0avgtext+0avgdata 50560maxresident)k
+0inputs+0outputs (0major+15774minor)pagefaults 0swaps
+969.74user 806.51system 5:52.66elapsed 503%CPU (0avgtext+0avgdata 50560maxresident)k
+0inputs+0outputs (0major+12409minor)pagefaults 0swaps
+385.96user 0.27system 0:49.23elapsed 784%CPU (0avgtext+0avgdata 50944maxresident)k
+0inputs+0outputs (0major+12445minor)pagefaults 0swaps
+388.97user 2.32system 0:52.34elapsed 747%CPU (0avgtext+0avgdata 50816maxresident)k
+0inputs+0outputs (0major+15805minor)pagefaults 0swaps
+750.20user 1867.86system 9:50.13elapsed 443%CPU (0avgtext+0avgdata 50688maxresident)k
+0inputs+0outputs (0major+12442minor)pagefaults 0swaps
+387.01user 0.29system 0:49.25elapsed 786%CPU (0avgtext+0avgdata 51072maxresident)k
+0inputs+0outputs (0major+12513minor)pagefaults 0swaps
+390.94user 4.32system 0:52.37elapsed 754%CPU (0avgtext+0avgdata 51200maxresident)k
+0inputs+0outputs (0major+16522minor)pagefaults 0swaps
+848.61user 3990.84system 19:00.36elapsed 424%CPU (0avgtext+0avgdata 51200maxresident)k
+0inputs+0outputs (0major+12514minor)pagefaults 0swaps
+387.19user 0.34system 0:49.36elapsed 784%CPU (0avgtext+0avgdata 51712maxresident)k
+0inputs+0outputs (0major+12652minor)pagefaults 0swaps
+381.93user 8.25system 0:52.41elapsed 744%CPU (0avgtext+0avgdata 51584maxresident)k
+0inputs+0outputs (0major+17279minor)pagefaults 0swaps
+1388.96user 8332.52system 37:38.88elapsed 430%CPU (0avgtext+0avgdata 51584maxresident)k
+0inputs+0outputs (0major+12652minor)pagefaults 0swaps
